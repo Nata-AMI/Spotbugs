@@ -21,8 +21,7 @@
             <version>5.4.2</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-
+     </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -49,7 +48,7 @@
                         <id>report</id>
                         <phase>verify</phase>
                         <goals>
-                            <goal>report</goal>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                     <execution>
